@@ -1,0 +1,158 @@
+/* Small Screens */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium  Screens */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* Header */
+@media (max-width: 447px) {
+    .header {
+        overflow-x: hidden;
+        box-shadow: 0 0 10px #ddd !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        width: 100% !important;
+    }
+    .header .logo {
+        width: 100%;
+        height: 40px !important;
+    }
+    .header .main-nav {
+        margin: auto;
+    }
+    .header .main-nav > li > a {
+        padding: 30px 13px !important;
+        font-size: 13px;
+        height: 30px !important;
+    }
+    .header .mega-menu {
+        flex-direction: column;
+        gap: 0 !important;
+        padding: 0px !important;
+    }
+    .header .mega-menu .links:first-of-type li:last-child {
+        border-bottom: 1px solid #e9e6e6;
+    }
+}
+@media (max-width: 991px) {
+    .header .mega-menu .image {
+        display: none;
+    }
+}
+/* Landing */
+@media (max-width: 767px) {
+    .landing .text h1 {
+        font-size: 28px !important;
+    }
+    .landing .text p {
+        font-size: 18px !important;
+    }
+}
+@media (max-width: 991px) {
+    .landing .text {
+        text-align: center;
+    }
+    .landing .text p {
+        margin: 10px auto !important;
+    }
+    .landing .image {
+        display: none;
+    }
+}
+/* Members */
+@media (max-width: 511px) {
+    .team .box::before {
+        width: 100% !important;
+    }
+    .team .box .data img {
+        width: calc(100% - 120px) !important;
+        margin-left: 60px;
+    }
+    .team .box .data .social {
+        width: 50px !important;
+    }
+    .team .box .info {
+        margin-top: 15px;
+    }
+} 
+/* Skills */
+@media (max-width: 991px) {
+    .our-skills img {
+        display: none;
+    }
+}
+/* Works */
+@media (max-width: 991px) {
+    .work-steps .container {
+        flex-direction: column;
+    }
+    .work-steps .image {
+        margin: 0 0 50px 0 !important;
+    }
+    .work-steps .info .box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .work-steps .info .box img {
+        margin: 0 0 40px !important;
+    }
+}
+/* Events */
+@media (max-width: 991px) {
+    .events img {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .events .subscribe form {
+        max-width: 100%;
+        padding: 20px !important;
+        flex-direction: column;
+        border-radius: 0 !important;
+    }
+    .events .subscribe form input[type="email"] , 
+    .events .subscribe form input[type="submit"] {
+        border-radius: 0 !important;
+    }
+    .events .subscribe form input[type="submit"] {
+        min-height: 50px;
+    }
+}
+/* Pricing */
+@media(min-width: 1200px) {
+    .pricing .box.popular {
+        top: -20px;
+    }
+}
+/* Videos */
+@media (max-width: 991px) {
+    .videos .holder {
+        flex-direction: column;
+    }
+    .videos .holder .preview .info {
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 991px) {
+    .discount .image {
+        flex-basis: 100%;
+    }
+    .discount .form {
+        flex-basis: 100%;
+    }
+}
